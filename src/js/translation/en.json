@@ -1,0 +1,46 @@
+{
+  "navigation": {
+    "fences": "Fences",
+    "other": "Other",
+    "gates": "Gates",
+    "stairs": "Stairs",
+    "railings": "Railings",
+    "canopies": "Canopies",
+    "about_us": "About us",
+    "contacts": "Contacts",
+    "home": "Home"
+  },
+  "logo": "modern metal art",
+  "contacts": {
+    "header": "Contact Us",
+    "intro_text": "Please, send your requests via the form. We will respond as soon as possible.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message_placeholder": "Write your message here...",
+    "message": "Message",
+    "send": "Send message",
+    "viber_text": "Start chat on Viber",
+    "form": "Contact form",
+    "message_text": {
+      "success": "Your message have been succefully delivered. Thank you for contacting us. We will respond to your request as soon as possible.",
+      "failure": "There was an error. Please try again."
+    }
+  },
+  "about_us": {
+    "header": "Welcome to the website of Modern Metal Art.",
+    "paragraph_1": "What started out as a niche type of hobby — creating metal art — blosommed into a full fledged operation.",
+    "paragraph_2": "This happened after the need for steelworks was evident by growing number of diverse product requests.",
+    "paragraph_3": "Metal Art Master has built a network of strong relationships within the industry that allow us to work on a range of different projects. We value both our new and regular clients.",
+    "paragraph_4": "We have extensive experience in all types of steelwork – structural steel for industrial and commercial structures, industrial retro-fit expansions.",
+    "paragraph_5": "What binds together every member of the Metal Art Master family is a shared passion for metal artworks, shaped by value-based guiding principles."
+  },
+  "furniture": {
+    "fences": { "title": { "fences": "Fences" } },
+    "gates": {"title": {"gates": "Gates"}},
+    "railings": {"title": {"railings": "Railings"}},
+    "canopies": {"title": {"canopies": "Canopies"}},
+    "stairs": {"title": {"stairs": "Stairs"}},
+    "other": {"title": {"other": "Other"}}  
+  }
+}
