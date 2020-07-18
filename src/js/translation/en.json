@@ -20,7 +20,7 @@
     "message_placeholder": "Write your message here...",
     "message": "Message",
     "send": "Send message",
-    "viber_text": "Start chat on Viber",
+    "whatsapp_text": "Start chat on WhatsApp",
     "form": "Contact form",
     "message_text": {
       "success": "Your message have been succefully delivered. Thank you for contacting us. We will respond to your request as soon as possible.",

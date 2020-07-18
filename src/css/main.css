@@ -488,7 +488,7 @@ img {
   display: flex;
 }
 
-.contacts__viber {
+.contacts__whatsapp {
   color: white;
   line-height: 1.5em;
   margin-bottom: 3rem;
@@ -507,7 +507,7 @@ img {
   display: flex;
   white-space: nowrap;
 }
-.contacts__phone-link--viber {
+.contacts__phone-link--whatsapp {
   font-weight: bold;
 }
 
@@ -644,12 +644,12 @@ img {
 
 /* VIBER */
 
-.viber {
+.whatsapp {
   color: white;
   text-decoration: none;
 }
 
-.viber__icon {
+.whatsapp__icon {
   height: 1.52rem;
   width: 1.52rem;
   margin-left: 0.3rem;
@@ -829,7 +829,7 @@ img {
     margin-bottom: 2.5rem;
   }
 
-  .contacts__viber {
+  .contacts__whatsapp {
     color: white;
     line-height: 1.5em;
     margin-bottom: 4rem;
