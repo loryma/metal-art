@@ -37,7 +37,7 @@ imagemin images/* --out-dir=build
 
 ```sh
 # resize images with image magick
-convert *.jpg -resize '400x300>' -set filename:base "%[base]" "thumb_%[filename:base].jpg""
+convert *.jpg -resize '400x300>' -set filename:base "%[base]" "thumb_%[filename:base].jpg"
 ```
 
 ```sh
@@ -46,4 +46,5 @@ convert *.jpg -resize '400x300>' -set filename:base "%[base]" "thumb_%[filename:
 
 ```sh
 cjpeg -quality 70 -outfile compressed-image.jpg 2.jpg
+for i in *.jpg ; do  cjpeg -quality 90 -outfile "build/$i" "$i"; done
 ```
