@@ -43,3 +43,7 @@ convert *.jpg -resize '400x300>' -set filename:base "%[base]" "thumb_%[filename:
 ```sh
 # cwebp to convert to webp https://developers.google.com/speed/webp/docs/compiling#building
 ```
+
+```sh
+cjpeg -quality 70 -outfile compressed-image.jpg 2.jpg
+```
