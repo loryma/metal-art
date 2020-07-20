@@ -2,7 +2,7 @@
   "navigation": {
     "fences": "Заборы",
     "other": "Другое",
-    "gates": "Ограждения",
+    "gates": "Ворота",
     "stairs": "Лестницы",
     "railings": "Перила",
     "canopies": "Навесы",
@@ -37,7 +37,7 @@
   },
   "furniture": {
     "fences": { "title": { "fences": "Заборы" } },
-    "gates": {"title": {"gates": "Ограждения"}},
+    "gates": {"title": {"gates": "Ворота"}},
     "railings": {"title": {"railings": "Перила"}},
     "canopies": {"title": {"canopies": "Навесы"}},
     "stairs": {"title": {"stairs": "Лестницы"}},
