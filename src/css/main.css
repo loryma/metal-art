@@ -220,6 +220,7 @@ img {
   white-space: nowrap;
   text-decoration: none;
   transform: translateY(-2px);
+  text-transform: capitalize;
 }
 
 .menu__phone--desktop {

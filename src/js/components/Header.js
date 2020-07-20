@@ -61,11 +61,13 @@ const Header = () => {
         </a>
 
         <div class="menu__link menu__link--phone">
-          <a class="menu__phone--mobile menu__phone" href="tel:+380954019009">
-            <span>+38 066 590 2317</span>
-            <img src="../images/phone.svg" class="phone-icon phone-icon" alt="phone start call icon" />
+          <a class="menu__phone--mobile menu__phone translatable" data-id="contacts.whatsapp_text" href="https://wa.me/380665902317">
+            WhatsApp
+            <img src="../images/whatsapp.svg" class="whatsapp__icon" alt="whatsapp start chat icon" />
           </a>
-          <a class="menu__phone menu__phone--desktop">+38 066 590 2317</a>
+          <a class="menu__phone menu__phone--desktop">
+            +38 066 590 2317 
+          </a>
           <div class="menu__lang">
             <Lang />
           </div>
