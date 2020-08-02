@@ -36,12 +36,13 @@ imagemin images/* --out-dir=build
 ```
 
 ```sh
-# resize images with image magick
-convert *.jpg -resize '400x600>' -set filename:base "%[base]" "thumb_%[filename:base].jpg"
+# cwebp to convert to webp https://developers.google.com/speed/webp/docs/compiling#building
 ```
 
+
 ```sh
-# cwebp to convert to webp https://developers.google.com/speed/webp/docs/compiling#building
+# resize images with image magick
+convert *.jpg -resize '400x600>' -set filename:base "%[base]" "thumb_%[filename:base].jpg"
 ```
 
 ```sh
