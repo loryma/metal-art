@@ -721,6 +721,12 @@ img {
   margin: 3rem 0 1.5rem 0;
 }
 
+.furniture__title--index {
+  margin: 2rem 0;
+  text-align: center;
+  opacity: 0.7;
+}
+
 .content__description {
   padding: 0 1rem;
 }
@@ -863,6 +869,10 @@ img {
     padding-right: 1.5rem;
     font-size: 1.75rem;
     margin-top: 2rem;
+  }
+
+  .furniture__title--index {
+    margin: 2rem 0;
   }
 
   .content__description {
