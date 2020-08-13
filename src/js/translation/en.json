@@ -28,11 +28,13 @@
     }
   },
   "about_us": {
-    "header": "Welcome to the website of Modern Metal Art.",
-    "paragraph_1": "Alhidad is a modern metal art smithy, manufacturer of metal artworks and structural steel in Ukraine.",
-    "paragraph_2": "On our website you will find unique structural steelwork, ready-made forged items, and will be able to create one of a kind forged items for any of your projects.",
-    "paragraph_3": "Modern metal art smithy, Alhidad, had been on the market for more than 20 years. During this time we acquired rich in depth experience in the manufacture of highly sophisticated forged metal items.",
-    "paragraph_4": "As our main focus we chose artistic forging, which implies creating metalwork by hand. In our manufacturing process we use not only traditional techniques but also a plethora of modern technologies."
+    "header": "Welcome to the modern metal art smithy.",
+    "paragraph_1": "Alhidad is a manufacturer of metal artworks and structural steel in Ukraine.",
+    "paragraph_2": "In our catalogue you will find unique structural steelwork, ready-made forged items, and will be able to acquire one of a kind forged items for any of your projects.",
+    "paragraph_3": "Metal art smithy, Alhidad, had been on the market for more than 20 years. During this time we acquired rich in depth experience in the manufacture of highly sophisticated forged metal items.",
+    "paragraph_4": "As our main focus we chose artistic forging, which implies creating metalwork by hand. In our manufacturing process we use not only traditional techniques but also a plethora of modern technologies.",
+    "paragraph_5": "To discuss your ideas, please, contact us at",
+    "or_start_chat_on": "or start chat on"
   },
   "furniture": {
     "index": {"title": "Modern approach to artistic metalworking"},
