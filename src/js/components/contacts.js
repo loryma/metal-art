@@ -119,7 +119,7 @@ const ContactsForm = () => {
       </h2>
       {(submitMessageVisible && submitStatus === "success" && (
         <p class="contacts__success-text">
-          <Text id="contacts.message_text.success">"Your message have been succefully delivered. Thank you for contacting us. We will respond to your request as soon as possible"</Text>
+          <Text id="contacts.message_text.success">"Your message have been successfully delivered. Thank you for contacting us. We will respond to your request as soon as possible"</Text>
         </p>
       )) || (
         <>
