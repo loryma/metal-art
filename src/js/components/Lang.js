@@ -12,6 +12,9 @@ const Lang = () => {
 
   return (
     <div class="lang">
+      <a href="" onClick={onLangChange} class="menu__link lang__item menu__ar" data-active={lang === "ar" ? "active" : ""} data-lang="ar">
+        Ar
+      </a>
       <a href="" onClick={onLangChange} class="menu__link lang__item menu__ru" data-active={lang === "ru" ? "active" : ""} data-lang="ru">
         Ru
       </a>

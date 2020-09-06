@@ -2,8 +2,9 @@ import { h } from "preact";
 
 import ru from "../translation/ru.json";
 import en from "../translation/en.json";
+import ar from "../translation/ar.json";
 
-const definitions = { ru, en };
+const definitions = { ru, en, ar };
 
 function setLang() {
   let storedLang;
@@ -28,9 +29,12 @@ function setLang() {
 
     const newLang = browserLang && browserLang.slice(0, 2);
 
-    if (newLang == "ru" || newLang == "uk") {
+    if (newLang == "ru" || newLang == "uk" ){
       initialDefinition = definitions["ru"];
       initialLang = "ru";
+    } else if (newLang == "ar") {
+      initialDefinition = definitions["ar"];
+      initialLang = "ar";
     } else {
       initialDefinition = definitions["en"];
       initialLang = "en";
