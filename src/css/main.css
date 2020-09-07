@@ -233,6 +233,11 @@ img {
   transform: translateY(-50%);
 }
 
+html[dir*=rtl]  .menu__hamburger  {
+  right: initial;
+  left: 1rem;
+}
+
 .hamburger {
   height: 1.3rem;
   width: 2rem;
@@ -1024,6 +1029,11 @@ img {
 
   .menu__lang {
     padding-left: 2rem;
+  }
+
+  html[dir*=rtl] .menu__lang {
+    padding-left: 0;
+    padding-right: 2rem;
   }
 
   .menu__hamburger {
