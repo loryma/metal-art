@@ -25,20 +25,23 @@ function setLang() {
       initialLang = newLang;
     }
   } else {
-    const browserLang = (navigator.languages && navigator.languages[0]) || navigator.language || navigator.userLanguage;
+    // const browserLang = (navigator.languages && navigator.languages[0]) || navigator.language || navigator.userLanguage;
 
-    const newLang = browserLang && browserLang.slice(0, 2);
+    // const newLang = browserLang && browserLang.slice(0, 2);
 
-    if (newLang == "ru" || newLang == "uk" ){
-      initialDefinition = definitions["ru"];
-      initialLang = "ru";
-    } else if (newLang == "ar") {
-      initialDefinition = definitions["ar"];
-      initialLang = "ar";
-    } else {
-      initialDefinition = definitions["en"];
-      initialLang = "en";
-    }
+    // if (newLang == "ru" || newLang == "uk" ){
+    //   initialDefinition = definitions["ru"];
+    //   initialLang = "ru";
+    // } else if (newLang == "ar") {
+    //   initialDefinition = definitions["ar"];
+    //   initialLang = "ar";
+    // } else {
+    //   initialDefinition = definitions["en"];
+    //   initialLang = "en";
+    // }
+
+    initialDefinition = definitions["ar"];
+    initialLang = "ar";
   }
   return [initialLang, initialDefinition];
 }
