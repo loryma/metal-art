@@ -10,6 +10,7 @@ function setLang() {
   let storedLang;
   let initialDefinition;
   let initialLang;
+  let newLang;
 
   if (window.localStorage) {
     try {
@@ -19,7 +20,7 @@ function setLang() {
     }
   }
   if (storedLang) {
-    const newLang = JSON.parse(storedLang);
+    newLang = JSON.parse(storedLang);
     if (newLang) {
       initialDefinition = definitions[newLang];
       initialLang = newLang;
@@ -43,6 +44,12 @@ function setLang() {
     initialDefinition = definitions["ar"];
     initialLang = "ar";
   }
+  if(initialLang == "ar") {
+    document.documentElement.dir = "rtl"
+  }
+  else {
+    document.documentElement.dir = "ltr";
+  }
   return [initialLang, initialDefinition];
 }
 
@@ -54,6 +61,12 @@ window.Language = {
     this.lang = lang;
     const event = new Event("langChangeEvent");
     window.dispatchEvent(event);
+    if(this.lang == "ar") {
+      document.documentElement.dir = "rtl"
+    }
+    else {
+      document.documentElement.dir = "ltr";
+    }
     try {
       localStorage.setItem("furnitureLang", JSON.stringify(lang));
     } catch (error) {
