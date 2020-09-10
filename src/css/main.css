@@ -592,6 +592,11 @@ html[dir*=rtl]  .menu__hamburger  {
   transform-origin: left center;
 }
 
+html[dir*=rtl] .contacts__label {
+  left: initial;
+  right: 0;
+}
+
 .contacts__label .error {
   display: none;
 }
