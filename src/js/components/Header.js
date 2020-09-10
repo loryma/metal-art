@@ -65,7 +65,7 @@ const Header = () => {
             WhatsApp
             <img src="../images/whatsapp.svg" class="whatsapp__icon" alt="whatsapp start chat icon" />
           </a>
-          <a class="menu__phone menu__phone--desktop">
+          <a dir="auto" class="menu__phone menu__phone--desktop">
             +38 066 590 2317 
           </a>
           <div class="menu__lang">
