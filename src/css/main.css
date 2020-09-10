@@ -1028,9 +1028,19 @@ html[dir*=rtl] .contacts__label {
     padding-left: 0.7rem;
   }
 
+  html[dir*=rtl] .menu__link ~ .menu__link:not(.lang__item):not(.menu__link--phone) {
+    padding-left: 0;
+    padding-right: 0.7rem;
+  }
+
   .menu__link--phone {
     padding: 0 0 0 2rem;
   }
+
+  html[dir*=rtl] .menu__link--phone {
+    padding: 0 2rem 0 0;
+  }
+
 
   .menu__lang {
     padding-left: 2rem;
