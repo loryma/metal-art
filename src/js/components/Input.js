@@ -4,7 +4,7 @@ import { Text, Localizer } from "preact-i18n";
 const ERRORS = {
   en: { requered: "field is required", pattern: "is invalid" },
   ru: { requered: "поле обязательное для заполнения", pattern: "невалидна" },
-  ar: {requered: "الحقل مطلوب", pattern: "غير صالحة"}
+  ar: {requered: "هذا الحقل مطلوب", pattern: "غير صالح"}
 };
 
 const Input = ({ tag, type, name, value, onBlur, onInput, id, placeholder = "", error, lang, touched }) => {
